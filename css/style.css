@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(../fonts/ProximaNova-Regular.woff);
+}
+@font-face {
+  font-family: "Proxima Nova bold";
+  src: url(../fonts/ProximaNova-Bold.woff);
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1530px;
+  margin: 0 auto;
+}
+header {
+  min-width: 1920px;
+  padding-top: 54px;
+  box-sizing: border-box;
+  min-height: 960px;
+  background: #0a0e34 url(../img/header-bg.jpg) center no-repeat;
+}
+.top-links {
+  display: flex;
+  justify-content: space-between;
+}
+.top-links a:last-child {
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 34.49px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 309px;
+  position: relative;
+}
+.logo h1 {
+  z-index: 4;
+  position: relative;
+  color: #ffffff;
+  font-family: "Proxima Nova bold";
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 90px;
+  text-transform: uppercase;
+  letter-spacing: 4.96px;
+}
+.logo h1:last-child {
+  z-index: 2;
+  margin-top: 4px;
+  text-align: right;
+}
+.logo::after {
+  z-index: 3;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 317px;
+  position: absolute;
+  bottom: -145px;
+  left: 468px;
+  border-left: 4px solid #5d40ad;
+  transform: rotate(45deg);
+}
+.header-change-block {
+  display: flex;
+  flex-direction: column;
+}
+nav.container {
+  display: flex;
+  justify-content: flex-end;
+}
+nav.container a {
+  z-index: 3;
+  padding: 5px 25px;
+  color: #9071ea;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 34.49px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+.button-block {
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+}
+.button {
+  padding-top: 19px;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 38px;
+  width: 311px;
+  height: 77px;
+  box-shadow: 0 16px 24px #0a0e34;
+  background-color: #5e42b0;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+.button p {
+  font-weight: 600;
+  margin-left: 104px;
+  margin-top: -15px;
+  font-family: "Proxima Nova bold";
+}
+.button::before {
+  margin-right: 28px;
+  content: "";
+  display: inline-block;
+  width: 33px;
+  height: 37px;
+  background: url(../img/icon---apple.png) center no-repeat;
+  margin-left: 43px;
+  vertical-align: -18px;
+}
+.button-android {
+  margin-left: 50px;
+}
+.button-android::before {
+  content: "";
+  display: inline-block;
+  width: 36px;
+  height: 39px;
+  background: url(../img/icon---google-play.png) center no-repeat;
+  vertical-align: -21px;
+}

@@ -1,0 +1,77 @@
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    min-width: 320px;
+    min-height: 568px;
+  }
+  .top-links {
+    justify-content: center;
+  }
+  .top-links a:last-child {
+    display: none;
+  }
+  .logo {
+    margin-top: 141px;
+    align-items: center;
+  }
+  .logo h1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .logo h1:last-child {
+    max-width: 247px;
+    margin-left: 55px;
+    text-align: left;
+    letter-spacing: 1.6px;
+  }
+  .logo::after {
+    bottom: -36px;
+    left: 47.82%;
+    z-index: 1;
+    height: 177px;
+  }
+  .header-change-block {
+    flex-direction: column-reverse;
+  }
+  .button-block {
+    margin-top: 118px;
+    justify-content: space-around;
+  }
+  .button {
+    padding-top: 10px;
+    width: 142px;
+    height: 39px;
+    font-size: 8px;
+    letter-spacing: 0.4px;
+  }
+  .button p {
+    margin-left: 44px;
+    margin-top: -8px;
+  }
+  .button::before {
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 15px;
+    height: 17px;
+    background: url(../img/icon---apple-little.png) center no-repeat;
+    vertical-align: -8px;
+  }
+  .button-android {
+    margin-left: 0;
+  }
+  .button-android::before {
+    background: url(../img/icon---google-play-little.png) center no-repeat;
+  }
+  nav.container {
+    margin-top: 46px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  nav.container a {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}

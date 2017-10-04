@@ -1,0 +1,44 @@
+@media (min-width: 768px) and (max-width: 1919px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+    min-width: 768px;
+  }
+  .top-links {
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+  .logo {
+    align-items: center;
+    margin-top: 194px;
+    box-sizing: border-box;
+    padding: 0px 11.6%;
+  }
+  .logo h1 {
+    line-height: 68px;
+    font-size: 64px;
+    letter-spacing: 3.52px;
+  }
+  .logo h1:last-child {
+    max-width: 482px;
+    margin-left: 108px;
+    text-align: left;
+    letter-spacing: 2.5px;
+  }
+  .logo::after {
+    bottom: -140px;
+    left: 49.07%;
+    z-index: 1;
+  }
+  nav.container {
+    margin-top: 184px;
+    box-sizing: border-box;
+    padding: 0 25px;
+    justify-content: center;
+  }
+  .button-block {
+    margin-top: 116px;
+  }
+}
