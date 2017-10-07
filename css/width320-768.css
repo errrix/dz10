@@ -74,4 +74,225 @@
     font-size: 12px;
     padding: 5px 10px;
   }
+  .main {
+    min-width: 320px;
+  }
+  .main h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .main h3 {
+    font-size: 28px;
+    line-height: 34.49px;
+    letter-spacing: 1.4px;
+  }
+  .main p {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.75px;
+  }
+  .athlets h2 {
+    margin-top: 25px;
+    padding-left: 6.25%;
+  }
+  .athlets figure {
+    top: 80px;
+    left: 22%;
+  }
+  .athlets figure img {
+    height: 281px;
+  }
+  .athlets figure::before {
+    top: 20px;
+    left: 4px;
+  }
+  .athlets figure::after {
+    top: 11px;
+    left: -14px;
+  }
+  .athlets div {
+    display: none;
+    padding: 0 4.27%;
+  }
+  .athlets div:nth-child(4) {
+    padding-top: 81px;
+    margin-top: 220px;
+    display: block;
+    min-height: 283px;
+  }
+  .athlets div:nth-child(4) p {
+    margin-top: 15px;
+  }
+  .athlets .athlets-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: -27px;
+    min-height: 0;
+  }
+  .athlets .athlets-navigation a {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d8d8d8;
+    margin: 0 12px;
+  }
+  .athlets .athlets-navigation a:nth-child(2) {
+    background-color: #5c3caf;
+  }
+  .players h2 {
+    margin-top: 35px;
+  }
+  .players figure {
+    top: 102px;
+    left: 5%;
+  }
+  .players figure img {
+    height: 248px;
+  }
+  .players figure::before {
+    top: 20px;
+    left: 85px;
+  }
+  .players figure::after {
+    top: 11px;
+    left: 56px;
+  }
+  .players div {
+    display: none;
+  }
+  .players div:nth-child(4) {
+    display: none;
+  }
+  .players div:nth-child(5) {
+    display: block;
+    margin-top: 220px;
+    background-color: #f5f4f9;
+  }
+  .players div:nth-child(5) h3::before {
+    color: #000000;
+  }
+  .players div:nth-child(5) h3::after {
+    background-color: #5e3bb4;
+  }
+  .players div:nth-child(5) p {
+    color: #000000;
+  }
+  .players .athlets-navigation {
+    margin-bottom: 15px;
+  }
+  .players .athlets-navigation a:nth-child(2) {
+    background-color: #d8d8d8;
+  }
+  .players .athlets-navigation a:last-child {
+    background-color: #5c3caf;
+  }
+  .main-block > div {
+    flex-direction: column;
+  }
+  .main-block > div figure {
+    width: 100%;
+  }
+  .main-block > div figure::before {
+    padding: 27px 27px 32px 27px;
+    width: 70px;
+    height: 70px;
+    left: 6%;
+    top: auto;
+    bottom: -5%;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+  }
+  .main-block > div figure::after {
+    top: auto;
+    left: 6%;
+    bottom: -2%;
+    margin-left: 24px;
+  }
+  .main-block > div:nth-child(2) {
+    flex-direction: column;
+  }
+  .main-block > div:nth-child(2) div {
+    margin-left: 6%;
+  }
+  .main-block > div:nth-child(2) figure::before {
+    padding: 27px 27px 32px 27px;
+    width: 70px;
+    height: 70px;
+    left: 6%;
+    top: auto;
+    bottom: -5%;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+  }
+  .main-block > div:nth-child(2) figure::after {
+    top: auto;
+    left: 6%;
+    bottom: -2%;
+    margin-left: 24px;
+  }
+  .main-block > div div {
+    margin-left: 6%;
+  }
+  .main-block > div h2 {
+    margin-top: 35px;
+    font-size: 28px;
+    line-height: 34.49px;
+    letter-spacing: 1.4px;
+  }
+  .main-block > div p {
+    margin-top: 23px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+  }
+  .main-block > div p::after {
+    margin-top: 23px;
+    margin-bottom: 51px;
+  }
+  footer {
+    min-height: 568px;
+    width: 100%;
+    min-width: 320px;
+    padding-top: 97px;
+  }
+  footer .button-block {
+    margin-top: 72px;
+  }
+  footer .footer-logo::before {
+    top: 178px;
+    left: 33%;
+    height: 93px;
+  }
+  footer .footer-logo::after {
+    top: 150px;
+    left: 60%;
+    height: 158px;
+  }
+  footer .footer-logo h1 {
+    letter-spacing: 1.7px;
+    font-size: 34px;
+    line-height: 34px;
+  }
+  footer .footer-logo h1::before {
+    display: block;
+    margin: auto;
+    margin-bottom: 57px;
+  }
+  footer .footer-logo p {
+    line-height: 15px;
+    letter-spacing: 0.75px;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 13px;
+  }
+  footer .down-menu {
+    padding: 0;
+    justify-content: center;
+    min-height: 70px;
+    margin-top: 127px;
+    padding-top: 20px;
+  }
+  footer .down-menu > a {
+    display: none;
+  }
 }

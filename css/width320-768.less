@@ -75,4 +75,241 @@
 			padding: 5px 10px;
 		}
 	}
+	.main {
+		min-width: 320px;
+		h2 {
+			font-size: 50px;
+			line-height: 60px;
+		}
+		h3 {
+			font-size: 28px;
+			line-height: 34.49px;
+			letter-spacing: 1.4px;
+		}
+		p{
+			font-size: 15px;
+			line-height: 18px;
+			letter-spacing: 0.75px;
+		}
+	}
+	.athlets {
+		h2 {
+			margin-top: 25px;
+			padding-left: 6.25%;
+		}
+		figure {
+			top: 80px;
+			left: 22%;
+			img{
+				height: 281px;
+			}
+			&::before {
+				top: 20px;
+				left: 4px;
+			}
+			&::after {
+				top: 11px;
+				left: -14px;
+				
+			}
+		}
+		div {
+			display: none;
+			padding: 0 4.27%;
+			&:nth-child(4) {
+				padding-top: 81px;
+				margin-top: 220px;
+				display: block;
+				min-height: 283px;
+				p{
+					margin-top: 15px;
+				}
+			}
+		}
+		.athlets-navigation{
+			display: flex;
+			justify-content: center;
+			margin-top: -27px;
+			min-height: 0;
+			a{
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				background-color: #d8d8d8;
+				margin: 0 12px;
+				&:nth-child(2) {
+					background-color: #5c3caf;
+				}
+			}
+		}
+	}
+	.players {
+		h2 {
+			margin-top: 35px;
+		}
+		figure {
+			top: 102px;
+			left: 5%;
+			img{
+				height: 248px;
+			}
+			&::before {
+				top: 20px;
+				left: 85px;
+			}
+			&::after {
+				top: 11px;
+				left: 56px;
+			}
+		}
+		div {
+			display: none;
+			&:nth-child(4) {
+				display: none;
+			}
+			&:nth-child(5) {
+				display: block;
+				margin-top: 220px;
+				background-color: #f5f4f9;
+				h3{
+						&::before{
+						color: #000000;
+					}
+					&::after{
+						background-color: #5e3bb4;
+					}
+				}
+				p{
+					color: #000000;
+				}
+			}
+		}
+		.athlets-navigation {
+			margin-bottom: 15px;
+			a{
+				&:nth-child(2){
+					background-color: #d8d8d8;
+				}
+				&:last-child{
+					background-color: #5c3caf;
+				}
+			}
+		}
+	}
+	.main-block{
+		&>div {
+			flex-direction: column;
+			figure {
+				width: 100%;
+				&::before {
+					padding: 27px 27px 32px 27px;
+					width: 70px;
+					height: 70px;
+					left: 6%;
+					top: auto;
+					bottom: -5%;
+					font-size: 14px;
+					letter-spacing: 0.7px;
+				}
+				&::after {
+					top: auto;
+					left: 6%;
+					bottom: -2%;
+					margin-left: 24px;
+				}
+			}
+			&:nth-child(2){
+				flex-direction: column;
+				div{
+					margin-left: 6%;
+				}
+				figure {
+					&::before {
+						padding: 27px 27px 32px 27px;
+						width: 70px;
+						height: 70px;
+						left: 6%;
+						top: auto;
+						bottom: -5%;
+						font-size: 14px;
+						letter-spacing: 0.7px;
+					}
+					&::after {
+						top: auto;
+						left: 6%;
+						bottom: -2%;
+						margin-left: 24px;
+					}
+				}
+			}
+			div{
+				margin-left: 6%;
+			}
+			h2{
+				margin-top: 35px;
+				font-size: 28px;
+				line-height: 34.49px;
+				letter-spacing: 1.4px;
+			}
+			p{
+				margin-top: 23px;
+				font-size: 16px;
+				line-height: 20px;
+				letter-spacing: 0.8px;
+				&::after {
+					margin-top: 23px;
+					margin-bottom: 51px;
+				}
+			}
+		}
+	}
+	footer {
+		min-height: 568px;
+		width: 100%;
+		min-width: 320px;
+		padding-top: 97px;
+		.button-block{
+			margin-top: 72px;
+		}
+		.footer-logo{
+			&::before {
+				top: 178px;
+				left: 33%;
+				height: 93px;
+			}
+			&::after{
+				top: 150px;
+				left: 60%;
+				height: 158px;
+			}
+			h1{
+				letter-spacing: 1.7px;
+				font-size: 34px;
+				line-height: 34px;
+				&::before{
+					display: block;
+					margin: auto;
+					margin-bottom: 57px;
+				}
+			}
+			p{
+				line-height: 15px;
+				letter-spacing: 0.75px;
+				font-size: 15px;
+				margin: auto;
+				margin-top: 13px;
+			}
+		}
+		.down-menu {
+			padding: 0;
+			justify-content: center;
+			min-height: 70px;
+			margin-top: 127px;
+			padding-top: 20px;
+			&>a {
+				display: none;
+			}
+		}
+
+	}
 }
