@@ -157,6 +157,7 @@ nav.container a {
   letter-spacing: 1.8px;
 }
 .main p {
+  padding-bottom: 20px;
   margin-top: 31px;
   color: #000000;
   font-family: "Proxima Nova";
