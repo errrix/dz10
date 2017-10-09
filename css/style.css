@@ -261,9 +261,6 @@ nav.container a {
 .athlets-navigation {
   display: none;
 }
-.players {
-  overflow-x: hidden;
-}
 .players figure {
   left: auto;
   right: 187px;

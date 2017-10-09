@@ -85,6 +85,9 @@
     min-height: 206px;
     padding-top: 40px;
   }
+  .players {
+    overflow: hidden;
+  }
   .players figure {
     left: 44%;
     right: auto;
