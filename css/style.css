@@ -166,7 +166,6 @@ nav.container a {
   letter-spacing: 1px;
 }
 .athlets {
-  overflow: hidden;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -261,6 +260,9 @@ nav.container a {
 }
 .athlets-navigation {
   display: none;
+}
+.players {
+  overflow-x: hidden;
 }
 .players figure {
   left: auto;
